@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: #DAD3BE;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.container{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.btn{
+  font-size: 1rem;
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.btn img{
+  width: 20px;
+  margin-right: 10px;
+}
+.btn:hover{
+  cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+    .container{
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+}

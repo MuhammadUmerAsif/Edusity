@@ -1,0 +1,65 @@
+.testimonials
+{
+    margin: 80px auto;
+    padding: 0 80px;
+    position: relative;
+}
+.next_btn, .back_btn{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 50px;
+    padding: 15px;
+    transform: translateY(-50%);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #254336;
+}
+.back_btn{
+    right: auto;
+    left: 0;
+}
+
+.slider
+{
+    overflow: hidden;
+}
+
+.slide
+{
+    width: 200%;
+    overflow-x: hidden;
+    transition: 0.5s;
+    display: flex;
+    gap: 10px;
+    
+}
+
+@media screen and (max-width: 900px) {
+}
+
+@media screen and (max-width: 768px) {
+    .testimonials
+{
+    margin: 40px auto;
+    padding: 0 40px;
+    position: relative;
+}
+
+.next_btn, .back_btn{
+    width: 30px;
+    padding: 5px;
+    transform: translateY(-25%);
+}
+.slide
+{
+    width: 400%;
+    overflow-x: hidden;
+    transition: 0.5s;
+    display: flex;
+    gap: 5px;
+    
+}
+
+}

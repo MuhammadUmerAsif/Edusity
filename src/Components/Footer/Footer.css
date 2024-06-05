@@ -1,0 +1,19 @@
+.footer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer a{
+    color:#254336;
+    font-weight: bold;
+}
+
+.footer ul li{
+    list-style: none;
+    display:inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}

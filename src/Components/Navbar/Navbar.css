@@ -1,0 +1,68 @@
+nav{
+    width: 100%;
+    display:flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 4px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.btn {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+.btn:hover {
+    color: white; /* Override hover color for buttons */
+  }
+
+nav img{
+    width: 180px;
+}
+
+.menu ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0.5rem
+}
+
+.menu ul li:not(.btn-container):hover{
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+}
+
+.menu ul li a {
+    color: white; /* Ensure links are white by default */
+    text-decoration: none;
+}
+
+.menu ul li:hover a {
+    color: black; /* Change link color on hover */
+}
+
+.dark-nav{
+    background-color: #254336;
+    transition: 0.5s ease-in;
+}
+
+menu-icon{
+    color:#fff;
+    font-size: 16px;
+}
+/* ----------Media queries---------- */
+
+
+@media screen and (max-width: 780px) {
+    nav{
+        width: 70vh;
+    }
+    nav img{
+        width: 140px;
+    }
+}
